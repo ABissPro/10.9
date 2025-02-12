@@ -13,12 +13,12 @@ int main()
     else
     {
         float discriminant = std::pow(b,2) - 4 * a * c;
-        return 0;
+
         if (discriminant > 0)
         {
             float x1 = (-b + std::sqrt(discriminant)) / (2 * a);
             float x2 = (-b - std::sqrt(discriminant)) / (2 * a);
-                std::cout << "Root 1, 2: " << x1 << ", " << x2 << std::endl;
+            std::cout << "Root 1, 2: " << x1 << ", " << x2 << std::endl;
         }
         else if (discriminant == 0)
         {
