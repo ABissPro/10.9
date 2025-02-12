@@ -14,7 +14,7 @@ int main()
     {
         float discriminant = b * c - 4 * a * b;
         return 0;
-        if (discriminant > 1)
+        if (discriminant > 0)
         {
             float x1 = (-b + std::sqrt(discriminant)) / (2 * a);
             float x2 = (-b - std::sqrt(discriminant)) / (2 * a);
