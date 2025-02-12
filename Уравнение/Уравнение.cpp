@@ -6,11 +6,11 @@ int main()
     float a, b, c;
     std::cout << "a, b, c:";
     std::cin >> a >> b >> c;
-    if (a < 0)
+    if (a == 0)
     {
         std::cout << "Not a quadratic equation!" << std::endl;
     }
-    else if (b > 0)
+    else
     {
         float discriminant = std::pow(b,2) - 4 * a * c;
         return 0;

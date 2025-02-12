@@ -1,2 +1,3 @@
 ﻿  Уравнение.cpp
+C:\Users\user\Documents\Программы\cpp\10.9\Уравнение\Уравнение.cpp(15,28): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
   Уравнение.vcxproj -> C:\Users\user\Documents\Программы\cpp\10.9\Уравнение\x64\Debug\Уравнение.exe
