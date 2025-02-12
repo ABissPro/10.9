@@ -12,7 +12,7 @@ int main()
     }
     else if (b > 0)
     {
-        float discriminant = b * c - 4 * a * b;
+        float discriminant = std::pow(b,2) - 4 * a * c;
         return 0;
         if (discriminant > 0)
         {
