@@ -23,7 +23,7 @@ int main()
         else if (discriminant == 0)
         {
             float x = -b / (2 * a);
-            std::cout << "Root: " << discriminant << std::endl;
+            std::cout << "Root: " << x << std::endl;
         }
         else
         {
