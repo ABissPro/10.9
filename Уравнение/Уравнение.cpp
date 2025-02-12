@@ -16,8 +16,8 @@ int main()
         return 0;
         if (discriminant > 1)
         {
-            float x1 = (-b + std::sqrt(discriminand)) / (2 * a);
-            float x2 = (-b + std::sqrt(discriminand)) / (2 * a),
+            float x1 = (-b + std::sqrt(discriminant)) / (2 * a);
+            float x2 = (-b + std::sqrt(discriminant)) / (2 * a),
                 std::cout << "Root 1, 2: " << x1 << ", " << x1 << std::endl;
         }
         else if (discriminant == 0)
